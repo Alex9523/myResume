@@ -1,0 +1,248 @@
+body {
+    background-color: rgb(237, 239, 245);
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+}
+
+heder p {
+    padding: 100px 0 130px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+heder img {
+    max-width: 300px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: 0 400px;
+}
+
+@media screen and (max-width:993px) {
+    heder img {
+        display: none;
+    }
+    heder p {
+        font-size: 40px;
+        padding: 100px 0 250px;
+    }
+}
+
+.about,
+.education,
+.skills,
+.contact,
+.form,
+.progects {
+    margin: 100px 0 100px;
+}
+
+.about p,
+.education p,
+.skills p,
+.contact p,
+.form p,
+.progects p {
+    font-size: 30px;
+}
+
+.redShape {
+    height: 10px;
+    width: 50px;
+    background-color: rgb(233, 49, 67);
+}
+
+.textAboutMe {
+    display: flex;
+    flex-direction: row;
+}
+
+.textAboutMe p {
+    font-size: 20px;
+    max-width: 550px;
+}
+
+.textAboutMe img {
+    margin: 20px;
+}
+
+.textAboutMe button {
+    margin-left: 20px;
+    background-color: rgb(237, 239, 245);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+button:focus {
+    outline: none
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:993px) {
+    .textAboutMe {
+        flex-direction: column;
+    }
+}
+
+.universitys {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:993px) {
+    .universitys {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.aboutUniversity {
+    width: 300px;
+}
+
+.aboutUniversity p:nth-child(1) {
+    font-size: 18px;
+    margin: 0;
+}
+
+.aboutUniversity p:nth-child(2) {
+    font-size: 15px;
+    color: rgb(148, 163, 186);
+    margin: 0;
+}
+
+.aboutUniversity p:nth-child(3) {
+    font-size: 15px;
+    margin: 0;
+}
+
+.hardSkills {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shapeSkillsSecond {
+    background-color: rgb(187, 200, 221);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 118px 0;
+}
+
+.shapeSkillsFirst {
+    background-color: rgb(157, 168, 189);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 118px 0;
+}
+
+.academy {
+    padding: 150px 20px;
+    background-image: url(bgAcademy.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.resume {
+    padding: 150px 20px;
+    background-image: url(bgResume.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.allProgect {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:993px) {
+    .allProgect {
+        flex-direction: column;
+    }
+}
+
+.linkOfProject {
+    display: flex;
+    flex-direction: column;
+}
+
+foter {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:993px) {
+    foter {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.contact {
+    color: white;
+    max-width: 550px;
+    max-height: 450px;
+    background-color: rgb(46, 73, 117);
+    padding: 20px;
+}
+
+.form {
+    max-width: 550px;
+    max-height: 450px;
+    background-color: rgb(187, 200, 221);
+    padding: 20px;
+}
+
+.contact p:nth-child(3) {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.contact p:nth-child(4) {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+textarea {
+    width: 100%
+}
+
+input[type=text],
+input[type=email],
+textarea,
+input[type=submit] {
+    background-color: rgb(187, 200, 221);
+    border: none;
+    border-bottom: solid 1px;
+    margin: 20px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+    outline: none
+}
+
+
+@media screen and (max-width:993px) {
+    textarea {
+        width: 100%;
+    }
+}
